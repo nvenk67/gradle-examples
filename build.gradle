@@ -15,9 +15,9 @@ allprojects {
         mavenCentral()
     }
 
-    task wrapper(type: Wrapper) {
-        gradleVersion = '1.9'
-    }
+ //   task wrapper(type: Wrapper) {
+  //      gradleVersion = '1.9'
+ //   }
 
     // Hide output subfolders from IntelliJ for each subproject
     idea {
